@@ -1,7 +1,10 @@
-(defproject helpshift/durable-queue "0.1.4"
+(defproject helpshift/durable-queue "0.1.5"
   :description "a in-process task-queue that is backed by disk."
+  :url "https://github.com/helpshift/durable-queue"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :scm {:name "git"
+        :url "https://github.com/helpshift/durable-queue"}
   :dependencies [[com.taoensso/nippy "2.7.0"]
                  [primitive-math "0.1.3"]
                  [byte-streams "0.1.9"]
